@@ -31,4 +31,5 @@ The threshold for anomaly detection is fine-tuned using the validation set and t
 This project demonstrates the application of autoencoders in the medical field, where they can be used to reliably identify abnormal patterns in ECG data, potentially aiding in the early detection of heart conditions.
 
 #### Reference:  
+[Handson Machine Learning](https://github.com/ageron/handson-ml3)
 [https://www.kaggle.com/mineshjethva](https://www.kaggle.com/code/mineshjethva/ecg-anomaly-detection)
