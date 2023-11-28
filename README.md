@@ -14,6 +14,13 @@ The Auto encoder model is compiled using the `nadam` optimizer and `mae` (Mean A
 
 ### Evaluation
 After training, the model's reconstruction error is plotted against both the validation and the normal training ECGs to establish a threshold value for anomaly detection. ECGs with a reconstruction error above this threshold are considered anomalous. The threshold is set at `0.03` based on the observed reconstruction errors. The autoencoder's performance is then evaluated on the validation and test sets using metrics such as accuracy, precision, and recall.
+#### Reconstruction of normal image
+![](normal.png)  
+
+#### Reconstruction of anomalous image
+![](anomalous.png)
+
+
 
 ### Results
 The threshold for anomaly detection is fine-tuned using the validation set and the final model is tested to assess its performance on unseen data. The accuracy of the final model on the **validation set is reported as 96.7% and on test set it is 96.3%**, with corresponding precision and recall scores.
